@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package foo.bar.v1beta1;
+
+import "foo/bar/v1beta1/bat.proto";
+
+// Message Baz
+message Baz {
+  // The value of Baz
+  string value = 1;
+
+  // Baz's Bat
+  Bat baz_bat = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package foo.bar.v1beta1;
+
+// Message Bat
+message Bat {
+  // The value of Bat
+  string value = 1;
+}
